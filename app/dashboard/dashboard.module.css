@@ -1,0 +1,17 @@
+
+.dashboardLayout {
+    display: flex;
+    gap: 4px;
+}
+
+.sidebar {
+    flex: 1;
+}
+
+.navbar {
+    flex: 4;
+}
+
+.container {
+    min-height: 1500px;
+}
