@@ -1,0 +1,70 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.form {
+    min-width: 350px;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 25px 20px;
+    border-radius: 10px;
+    background-color: var(--bgSoft);
+}
+
+.container h2 {
+    padding: 10px;
+}
+
+
+.label {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px 0;
+    gap: 6px;
+    font-weight: 700;
+}
+
+.label input {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    outline-style: none;
+    border: none;
+    font-size: large;
+    border: 1px solid var(--text);
+    background-color: transparent;
+    color: #FFF;
+}
+
+.label input::placeholder {
+    color: var(--textSoft);
+    /* font-weight: 800; */
+}
+
+/* .label input:active {
+    color: var(--textSoft);
+    font-weight: 800;
+    color: #FFF;
+} */
+
+.label input:focus {
+    background-color: var(--textSoft);
+    border: 2px solid var(--text);
+    color: #FFF;
+}
+
+.loginbtn {
+    /* font-size: large; */
+    width: 100%;
+    font-weight: 600;
+    padding: 10px;
+    margin: 10px 0;
+}

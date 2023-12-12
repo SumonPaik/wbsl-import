@@ -1,4 +1,21 @@
 .container {
     background-color: var(--bgSoft);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8PX;
+    padding: 10px 20px;
+    line-height: 40px;
+}
 
+.pathName {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    text-transform: capitalize;
+}
+
+.btn {
+    padding: 0 10px;
 }

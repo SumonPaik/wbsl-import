@@ -13,7 +13,6 @@ const DashboardLayout = ({ children }) => {
         <Navbar />
         {children}
       </div>
-      {/* Footer */}
     </div>
   );
 };

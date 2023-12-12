@@ -1,17 +1,56 @@
 
 .dashboardLayout {
     display: flex;
-    gap: 4px;
+    gap: 8px;
+    position: relative;
 }
 
 .sidebar {
     flex: 1;
+    position: sticky;
 }
 
 .navbar {
     flex: 4;
 }
 
-.container {
-    min-height: 1500px;
+/* .container {
+    border-radius: 8px;
+} */
+
+.table {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.table th {
+    background-color: var(--bgSoft);
+    color: var(--textSoft);
+    padding: 8px;
+}
+
+.table, .table th, .table td {
+    border: 1px solid var(--bgSoft);
+    border-collapse: collapse;
+}
+
+.table thead {
+    background-color: var(--bgSoft);
+    color: var(--textSoft);
+}
+
+.table td {
+    padding: 8px;
+}
+
+.table tr:hover {
+    background-color: var(--bgSoft);
+}
+
+
+.link {
+    display: flex;
+    gap: 5px;
+    align-items: center;
 }

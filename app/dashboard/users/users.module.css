@@ -1,0 +1,44 @@
+.container {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table, .table th, .table td {
+    border: 1px solid var(--bgSoft);
+    border-collapse: collapse;
+}
+
+/* .table th, .table td {
+    padding: 4px 8px;
+} */
+
+.table th {
+    background-color: var(--bgSoft);
+    color: var(--text);
+    font-weight: 600;
+    padding: 8px;
+    text-transform: uppercase;
+}
+/* 
+.options {
+    width: 200px;
+} */
+
+.table td {
+    padding: 8px;
+}
+
+.table tr:hover {
+    background-color: var(--bgSoft);
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
